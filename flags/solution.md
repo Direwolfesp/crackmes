@@ -10,12 +10,10 @@
   In each loop iteration the next byte of the buffer will be
   left shifted `i` bits, in other words, the solution can be
   generated like this by shifting in the oposite way `val` so
-  the shifts cancel each other:
+  that the shifts cancel each other:
 
   ```nu
-    5..1 | each { |i|
-      0x[40] | bits shr $i
-    } | bytes collect 
+    5..1 | each { |i| 0x[40] | bits shr $i } | bytes collect 
     # => Length: unknown (stream) | printable whitespace ascii_other non_ascii
     # => 00000000:   02 04 08 10  20
-```  
+  ```  
