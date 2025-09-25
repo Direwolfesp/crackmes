@@ -16,7 +16,7 @@
   in `./solve.nu`) that applies the `transform` function for every printable ASCII
   character, checks if it matches with the string and stores it in the result.
 
-  This bruteforce solution came to be pretty fast, as the search window
+  This bruteforce solution turned out to be pretty fast, as the search window
   is already pretty small thanks to the static analysis done previously.
   ```nu 
   > : timeit { ./solve.nu }
