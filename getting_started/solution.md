@@ -21,4 +21,7 @@
   > : [0x6e 0x60 0x5e 0x6d 0x60 0x6f] | each {|n| $n + 5 | into binary | take 1 } | bytes collect
   # => Length: unknown (stream) | printable whitespace ascii_other non_ascii
   # => 00000000:   73 65 63 72  65 74                                   secret
+
+  > : ./getting_started secret
+  # => Welcome.
   ```
