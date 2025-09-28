@@ -5,4 +5,5 @@
   ## Solution
   Password: Sup3rS3cr3tP455W0rd  
   Secret code: 1337
+  Flag: CTFlearn{W4s_1T_Th4T_H4rd?}
 
